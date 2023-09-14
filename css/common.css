@@ -23,3 +23,28 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 40px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
